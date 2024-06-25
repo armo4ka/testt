@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Tap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Saturn Tap</h1>
+        <div class="header">
+            <h1>Клики: <span id="click-counter">0</span></h1>
+            <div class="jar">
+                <div id="jar-progress"></div>
+            </div>
+        </div>
+        <div class="game-area">
+            <img src="coin.png" alt="Монета" id="coin" />
+            <audio id="coin-sound" src="coin-sound.mp3"></audio>
+        </div>
+        <div class="footer">
+            <h2>Заряды: <span id="charge-counter">300</span></h2>
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
